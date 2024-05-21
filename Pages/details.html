@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./detail.css"/>
+    <title>Details</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <h1>Movie<span>Time</span></h1>
+            </div>
+            <div class="nav-menu">
+                <ul class="menu-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="search">
+                <input type="text" id="search_input" placeholder="Enter Movie Name">
+                <button id="search_button">Search</button>
+            </div>
+            <button class="login btn">Login</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="movie-details">
+            <div class="left">
+                <img src="../Assets/./got.jpg" alt="Movie Poster">
+            </div>
+            <div class="right">
+                <div class="name">
+                    <h2>Game of Thrones</h2>
+                </div>
+                <div class="del">
+                    <p style="font-weight: 900; padding-bottom: 2px;">Synopsis:</p>
+                    <p style="font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <p >Genre: <span  id="genre">Action</span></p>
+                    <p >Director: <span style="font-weight: normal;" id="director">Yo Yo Honey Singh</p>
+                    <p style="padding-bottom: 0px;">Cast: </p>
+                    <ul id="cast">
+                        <li>Actor1</li>
+                        <li>Actor2</li>
+                        <li>Actor3</li>
+                    </ul>
+                    <p>Rating: <span id="rating"> 8.5/10</span></p>
+                </div>
+            </div>
+           </div>
+           
+    </div>
+</body>
+</html>
